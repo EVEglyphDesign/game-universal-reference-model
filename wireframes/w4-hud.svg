@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect x="0" y="0" width="1200" height="760" fill="#fdfaf4"/>
+  <text x="40.0" y="30.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#6b665c" text-anchor="start" letter-spacing="0.5">W4</text>
+  <text x="40.0" y="60.0" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="600" fill="#1a1a1a" text-anchor="start">Play Surface — 3D HUD</text>
+  <rect x="966.1" y="22.0" width="193.9" height="25.0" rx="12.5" fill="none" stroke="#e87722" stroke-width="1.5"/>
+  <text x="1063.1" y="38.7" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#e87722" text-anchor="middle">URM 6.1, 7.2, 7.3, 9.4</text>
+  <line x1="40.0" y1="74.0" x2="1160.0" y2="74.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <rect x="40.0" y="100.0" width="1120.0" height="596.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="40.0" y1="100.0" x2="1160.0" y2="696.0" stroke="#e7e1d3" stroke-width="1"/>
+  <line x1="1160.0" y1="100.0" x2="40.0" y2="696.0" stroke="#e7e1d3" stroke-width="1"/>
+  <rect x="406.0" y="383.5" width="388.0" height="29.0" rx="3" fill="#fdfaf4" stroke="#e7e1d3" stroke-width="1"/>
+  <text x="600.0" y="402.8" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="400" fill="#6b665c" text-anchor="middle">3D viewport — WebGL 2.0 / glTF 2.0 scene</text>
+  <rect x="56.0" y="116.0" width="239.1" height="34.0" rx="6" fill="#fdfaf4" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="175.6" y="138.0" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#1a1a1a" text-anchor="middle">Chapter 3 — Four Lost Days</text>
+  <rect x="986.1" y="116.0" width="157.9" height="34.0" rx="17.0" fill="#fdfaf4" stroke="#e87722" stroke-width="1.5"/>
+  <text x="1065.0" y="138.0" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#e87722" text-anchor="middle">Stand-Up in 7:42</text>
+  <rect x="56.0" y="584.0" width="260.0" height="96.0" rx="6" fill="#fdfaf4" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="70.0" y="606.0" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#6b665c" text-anchor="start">WASD  move</text>
+  <text x="70.0" y="625.0" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#6b665c" text-anchor="start">Mouse  look</text>
+  <text x="70.0" y="644.0" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#6b665c" text-anchor="start">Space  jump</text>
+  <text x="70.0" y="663.0" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#6b665c" text-anchor="start">Esc  release mouse</text>
+  <rect x="844.0" y="530.0" width="300.0" height="150.0" rx="6" fill="#fdfaf4" stroke="#e7e1d3" stroke-width="1.5"/>
+  <rect x="860.0" y="546.0" width="268.0" height="118.0" rx="4" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="870.0" y="564.0" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="start">CamYaw (yaw)</text>
+  <rect x="876.0" y="580.0" width="236.0" height="68.0" rx="4" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="886.0" y="598.0" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a1a1a" text-anchor="start">SpringArm (pitch)</text>
+  <rect x="890.0" y="612.0" width="208.0" height="22.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="994.0" y="627.0" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a1a1a" text-anchor="middle">Camera</text>
+  <line x1="40.0" y1="716.0" x2="1160.0" y2="716.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="40.0" y="738.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#6b665c" text-anchor="start">In-play HUD stays minimal: only chapter, well-being timer, controls and camera state are ever shown.</text>
+</svg>

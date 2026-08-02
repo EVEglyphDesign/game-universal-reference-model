@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect x="0" y="0" width="1200" height="760" fill="#fdfaf4"/>
+  <text x="40.0" y="30.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#6b665c" text-anchor="start" letter-spacing="0.5">W3</text>
+  <text x="40.0" y="60.0" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="600" fill="#1a1a1a" text-anchor="start">Chapter Select</text>
+  <rect x="1003.8" y="22.0" width="156.2" height="25.0" rx="12.5" fill="none" stroke="#e87722" stroke-width="1.5"/>
+  <text x="1081.9" y="38.7" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#e87722" text-anchor="middle">URM 4.4, 3.4, 3.3</text>
+  <line x1="40.0" y1="74.0" x2="1160.0" y2="74.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <rect x="1045.5" y="100.0" width="114.5" height="30.0" rx="15" fill="none" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="1102.8" y="119.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="middle">EN / FR / ES</text>
+  <rect x="40.0" y="148.0" width="360.0" height="264.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="56.0" y="164.0" width="328.0" height="132.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="56.0" y1="164.0" x2="384.0" y2="296.0" stroke="#e7e1d3" stroke-width="1"/>
+  <line x1="384.0" y1="164.0" x2="56.0" y2="296.0" stroke="#e7e1d3" stroke-width="1"/>
+  <rect x="168.7" y="217.0" width="102.6" height="26.0" rx="3" fill="#fdfaf4" stroke="#e7e1d3" stroke-width="1"/>
+  <text x="220.0" y="233.8" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#6b665c" text-anchor="middle">thumbnail</text>
+  <text x="56.0" y="320.0" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#6b665c" text-anchor="start">Chapter 1</text>
+  <text x="56.0" y="342.0" font-family="Fraunces, Georgia, serif" font-size="16" font-weight="400" fill="#1a1a1a" text-anchor="start">Starter Twin</text>
+  <text x="56.0" y="364.0" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#6b665c" text-anchor="start">Build your first digital twin together.</text>
+  <rect x="420.0" y="148.0" width="360.0" height="264.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="436.0" y="164.0" width="328.0" height="132.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="436.0" y1="164.0" x2="764.0" y2="296.0" stroke="#e7e1d3" stroke-width="1"/>
+  <line x1="764.0" y1="164.0" x2="436.0" y2="296.0" stroke="#e7e1d3" stroke-width="1"/>
+  <rect x="548.7" y="217.0" width="102.6" height="26.0" rx="3" fill="#fdfaf4" stroke="#e7e1d3" stroke-width="1"/>
+  <text x="600.0" y="233.8" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#6b665c" text-anchor="middle">thumbnail</text>
+  <text x="436.0" y="320.0" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#6b665c" text-anchor="start">Chapter 2</text>
+  <text x="436.0" y="342.0" font-family="Fraunces, Georgia, serif" font-size="16" font-weight="400" fill="#1a1a1a" text-anchor="start">What We Kept</text>
+  <text x="436.0" y="364.0" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#6b665c" text-anchor="start">Sort family memories worth saving.</text>
+  <rect x="800.0" y="148.0" width="360.0" height="264.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="816.0" y="164.0" width="328.0" height="132.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="816.0" y1="164.0" x2="1144.0" y2="296.0" stroke="#e7e1d3" stroke-width="1"/>
+  <line x1="1144.0" y1="164.0" x2="816.0" y2="296.0" stroke="#e7e1d3" stroke-width="1"/>
+  <rect x="928.7" y="217.0" width="102.6" height="26.0" rx="3" fill="#fdfaf4" stroke="#e7e1d3" stroke-width="1"/>
+  <text x="980.0" y="233.8" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#6b665c" text-anchor="middle">thumbnail</text>
+  <text x="816.0" y="320.0" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#6b665c" text-anchor="start">Chapter 3</text>
+  <text x="816.0" y="342.0" font-family="Fraunces, Georgia, serif" font-size="16" font-weight="400" fill="#1a1a1a" text-anchor="start">Four Lost Days</text>
+  <text x="816.0" y="364.0" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#6b665c" text-anchor="start">Piece together a missing week.</text>
+  <rect x="40.0" y="432.0" width="360.0" height="264.0" rx="4" fill="none" stroke="#e7e1d3" stroke-width="1.5"/>
+  <rect x="56.0" y="448.0" width="328.0" height="132.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="56.0" y1="448.0" x2="384.0" y2="580.0" stroke="#e7e1d3" stroke-width="1"/>
+  <line x1="384.0" y1="448.0" x2="56.0" y2="580.0" stroke="#e7e1d3" stroke-width="1"/>
+  <rect x="168.7" y="501.0" width="102.6" height="26.0" rx="3" fill="#fdfaf4" stroke="#e7e1d3" stroke-width="1"/>
+  <text x="220.0" y="517.8" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#6b665c" text-anchor="middle">thumbnail</text>
+  <text x="56.0" y="604.0" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#6b665c" text-anchor="start">Chapter 4</text>
+  <rect x="368.0" y="618.1" width="16.0" height="9.9" rx="2" fill="none" stroke="#6b665c" stroke-width="1.5"/>
+  <path d="M 371.5 618.1 A 4.5 4.5 0 0 1 380.5 618.1" fill="none" stroke="#6b665c" stroke-width="1.5"/>
+  <text x="56.0" y="626.0" font-family="Fraunces, Georgia, serif" font-size="16" font-weight="400" fill="#6b665c" text-anchor="start">Locked chapter</text>
+  <text x="56.0" y="648.0" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#6b665c" text-anchor="start">Unlocks after Chapter 3.</text>
+  <rect x="420.0" y="432.0" width="360.0" height="264.0" rx="4" fill="none" stroke="#e7e1d3" stroke-width="1.5"/>
+  <rect x="436.0" y="448.0" width="328.0" height="132.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="436.0" y1="448.0" x2="764.0" y2="580.0" stroke="#e7e1d3" stroke-width="1"/>
+  <line x1="764.0" y1="448.0" x2="436.0" y2="580.0" stroke="#e7e1d3" stroke-width="1"/>
+  <rect x="548.7" y="501.0" width="102.6" height="26.0" rx="3" fill="#fdfaf4" stroke="#e7e1d3" stroke-width="1"/>
+  <text x="600.0" y="517.8" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#6b665c" text-anchor="middle">thumbnail</text>
+  <text x="436.0" y="604.0" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#6b665c" text-anchor="start">Chapter 5</text>
+  <rect x="748.0" y="618.1" width="16.0" height="9.9" rx="2" fill="none" stroke="#6b665c" stroke-width="1.5"/>
+  <path d="M 751.5 618.1 A 4.5 4.5 0 0 1 760.5 618.1" fill="none" stroke="#6b665c" stroke-width="1.5"/>
+  <text x="436.0" y="626.0" font-family="Fraunces, Georgia, serif" font-size="16" font-weight="400" fill="#6b665c" text-anchor="start">Locked chapter</text>
+  <text x="436.0" y="648.0" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#6b665c" text-anchor="start">Unlocks after Chapter 4.</text>
+  <rect x="800.0" y="432.0" width="360.0" height="264.0" rx="4" fill="none" stroke="#e7e1d3" stroke-width="1.5"/>
+  <rect x="816.0" y="448.0" width="328.0" height="132.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="816.0" y1="448.0" x2="1144.0" y2="580.0" stroke="#e7e1d3" stroke-width="1"/>
+  <line x1="1144.0" y1="448.0" x2="816.0" y2="580.0" stroke="#e7e1d3" stroke-width="1"/>
+  <rect x="928.7" y="501.0" width="102.6" height="26.0" rx="3" fill="#fdfaf4" stroke="#e7e1d3" stroke-width="1"/>
+  <text x="980.0" y="517.8" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#6b665c" text-anchor="middle">thumbnail</text>
+  <text x="816.0" y="604.0" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#6b665c" text-anchor="start">Chapter 6</text>
+  <rect x="1128.0" y="618.1" width="16.0" height="9.9" rx="2" fill="none" stroke="#6b665c" stroke-width="1.5"/>
+  <path d="M 1131.5 618.1 A 4.5 4.5 0 0 1 1140.5 618.1" fill="none" stroke="#6b665c" stroke-width="1.5"/>
+  <text x="816.0" y="626.0" font-family="Fraunces, Georgia, serif" font-size="16" font-weight="400" fill="#6b665c" text-anchor="start">Locked chapter</text>
+  <text x="816.0" y="648.0" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#6b665c" text-anchor="start">Unlocks after Chapter 5.</text>
+  <line x1="40.0" y1="716.0" x2="1160.0" y2="716.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="40.0" y="738.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#6b665c" text-anchor="start">Chapter map showing progression and locks; language switch stays visible while browsing.</text>
+</svg>

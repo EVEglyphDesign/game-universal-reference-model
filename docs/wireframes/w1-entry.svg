@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect x="0" y="0" width="1200" height="760" fill="#fdfaf4"/>
+  <text x="40.0" y="30.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#6b665c" text-anchor="start" letter-spacing="0.5">W1</text>
+  <text x="40.0" y="60.0" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="600" fill="#1a1a1a" text-anchor="start">Entry — Three Doors</text>
+  <rect x="1003.8" y="22.0" width="156.2" height="25.0" rx="12.5" fill="none" stroke="#e87722" stroke-width="1.5"/>
+  <text x="1081.9" y="38.7" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#e87722" text-anchor="middle">URM 5.2, 5.3, 1.4</text>
+  <line x1="40.0" y1="74.0" x2="1160.0" y2="74.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="600.0" y="114.0" font-family="Fraunces, Georgia, serif" font-size="22" font-weight="400" fill="#1a1a1a" text-anchor="middle">We are here to protect you</text>
+  <rect x="40.0" y="150.0" width="357.3" height="300.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="60.0" y="170.0" width="317.3" height="210.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="60.0" y1="170.0" x2="377.3" y2="380.0" stroke="#e7e1d3" stroke-width="1"/>
+  <line x1="377.3" y1="170.0" x2="60.0" y2="380.0" stroke="#e7e1d3" stroke-width="1"/>
+  <rect x="168.5" y="261.5" width="100.3" height="27.0" rx="3" fill="#fdfaf4" stroke="#e7e1d3" stroke-width="1"/>
+  <text x="218.7" y="279.2" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#6b665c" text-anchor="middle">door art</text>
+  <text x="218.7" y="414.0" font-family="Fraunces, Georgia, serif" font-size="20" font-weight="400" fill="#1a1a1a" text-anchor="middle">Mother</text>
+  <rect x="421.3" y="150.0" width="357.3" height="300.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="441.3" y="170.0" width="317.3" height="210.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="441.3" y1="170.0" x2="758.7" y2="380.0" stroke="#e7e1d3" stroke-width="1"/>
+  <line x1="758.7" y1="170.0" x2="441.3" y2="380.0" stroke="#e7e1d3" stroke-width="1"/>
+  <rect x="549.8" y="261.5" width="100.3" height="27.0" rx="3" fill="#fdfaf4" stroke="#e7e1d3" stroke-width="1"/>
+  <text x="600.0" y="279.2" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#6b665c" text-anchor="middle">door art</text>
+  <text x="600.0" y="414.0" font-family="Fraunces, Georgia, serif" font-size="20" font-weight="400" fill="#1a1a1a" text-anchor="middle">Child</text>
+  <rect x="802.7" y="150.0" width="357.3" height="300.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="822.7" y="170.0" width="317.3" height="210.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="822.7" y1="170.0" x2="1140.0" y2="380.0" stroke="#e7e1d3" stroke-width="1"/>
+  <line x1="1140.0" y1="170.0" x2="822.7" y2="380.0" stroke="#e7e1d3" stroke-width="1"/>
+  <rect x="931.2" y="261.5" width="100.3" height="27.0" rx="3" fill="#fdfaf4" stroke="#e7e1d3" stroke-width="1"/>
+  <text x="981.3" y="279.2" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#6b665c" text-anchor="middle">door art</text>
+  <text x="981.3" y="414.0" font-family="Fraunces, Georgia, serif" font-size="20" font-weight="400" fill="#1a1a1a" text-anchor="middle">Father</text>
+  <rect x="40.0" y="476.0" width="357.3" height="90.0" rx="4" fill="none" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="218.7" y="526.0" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="400" fill="#1a1a1a" text-anchor="middle">Electric Utility</text>
+  <rect x="421.3" y="476.0" width="357.3" height="90.0" rx="4" fill="none" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="600.0" y="526.0" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="400" fill="#1a1a1a" text-anchor="middle">Other Utility</text>
+  <rect x="802.7" y="476.0" width="357.3" height="90.0" rx="4" fill="none" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="981.3" y="526.0" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="400" fill="#1a1a1a" text-anchor="middle">Enterprise</text>
+  <line x1="40.0" y1="716.0" x2="1160.0" y2="716.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="40.0" y="738.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#6b665c" text-anchor="start">First screen a visitor sees: three equal, login-free paths in, no account required to enter.</text>
+</svg>

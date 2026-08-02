@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect x="0" y="0" width="1200" height="760" fill="#fdfaf4"/>
+  <text x="40.0" y="30.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#6b665c" text-anchor="start" letter-spacing="0.5">W8</text>
+  <text x="40.0" y="60.0" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="600" fill="#1a1a1a" text-anchor="start">Guardian and Review Panel</text>
+  <rect x="996.3" y="22.0" width="163.7" height="25.0" rx="12.5" fill="none" stroke="#e87722" stroke-width="1.5"/>
+  <text x="1078.1" y="38.7" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#e87722" text-anchor="middle">URM 1.2, 2.7, 14.2</text>
+  <line x1="40.0" y1="74.0" x2="1160.0" y2="74.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <rect x="40.0" y="100.0" width="1120.0" height="40.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="54.0" y="125.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="start">Item</text>
+  <text x="502.0" y="125.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="start">Reviewer</text>
+  <text x="703.6" y="125.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="start">Status</text>
+  <text x="905.2" y="125.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="start">Date</text>
+  <rect x="40.0" y="100.0" width="1120.0" height="292.0" rx="4" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="40.0" y1="100.0" x2="40.0" y2="392.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <line x1="488.0" y1="100.0" x2="488.0" y2="392.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <line x1="689.6" y1="100.0" x2="689.6" y2="392.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <line x1="891.2" y1="100.0" x2="891.2" y2="392.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <line x1="1160.0" y1="100.0" x2="1160.0" y2="392.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="54.0" y="166.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Chapter 3 catechetical text</text>
+  <text x="502.0" y="166.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Church review</text>
+  <rect x="703.6" y="149.0" width="75.7" height="22.0" rx="11.0" fill="none" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="741.4" y="163.8" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="middle">Approved</text>
+  <text x="905.2" y="166.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#6b665c" text-anchor="start">12 Jul 2026</text>
+  <line x1="40.0" y1="182.0" x2="1160.0" y2="182.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="54.0" y="208.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Narrator script v4</text>
+  <text x="502.0" y="208.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Church review</text>
+  <rect x="703.6" y="191.0" width="82.6" height="22.0" rx="11.0" fill="none" stroke="#e87722" stroke-width="1.5"/>
+  <text x="744.9" y="205.8" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#e87722" text-anchor="middle">In review</text>
+  <text x="905.2" y="208.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#6b665c" text-anchor="start">28 Jul 2026</text>
+  <line x1="40.0" y1="224.0" x2="1160.0" y2="224.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="54.0" y="250.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Safety walls audit</text>
+  <text x="502.0" y="250.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Safeguarding</text>
+  <rect x="703.6" y="233.0" width="75.7" height="22.0" rx="11.0" fill="none" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="741.4" y="247.8" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="middle">Approved</text>
+  <text x="905.2" y="250.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#6b665c" text-anchor="start">05 Jul 2026</text>
+  <line x1="40.0" y1="266.0" x2="1160.0" y2="266.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="54.0" y="292.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Accessibility check</text>
+  <text x="502.0" y="292.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Accessibility</text>
+  <rect x="703.6" y="275.0" width="47.8" height="22.0" rx="11.0" fill="none" stroke="#e87722" stroke-width="1.5"/>
+  <text x="727.5" y="289.8" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#e87722" text-anchor="middle">Open</text>
+  <text x="905.2" y="292.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#6b665c" text-anchor="start">01 Aug 2026</text>
+  <line x1="40.0" y1="308.0" x2="1160.0" y2="308.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="54.0" y="334.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Asset licence register</text>
+  <text x="502.0" y="334.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Legal</text>
+  <rect x="703.6" y="317.0" width="75.7" height="22.0" rx="11.0" fill="none" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="741.4" y="331.8" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="middle">Approved</text>
+  <text x="905.2" y="334.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#6b665c" text-anchor="start">18 Jun 2026</text>
+  <line x1="40.0" y1="350.0" x2="1160.0" y2="350.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="54.0" y="376.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Public URL fetch</text>
+  <text x="502.0" y="376.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Release</text>
+  <rect x="703.6" y="359.0" width="75.7" height="22.0" rx="11.0" fill="none" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="741.4" y="373.8" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="middle">Approved</text>
+  <text x="905.2" y="376.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#6b665c" text-anchor="start">22 Jul 2026</text>
+  <rect x="40.0" y="418.0" width="1120.0" height="130.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="60.0" y="446.0" font-family="Fraunces, Georgia, serif" font-size="16" font-weight="600" fill="#1a1a1a" text-anchor="start">What the child saw</text>
+  <text x="60.0" y="472.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Chapter 3, session of 28 Jul 2026 — 22 minutes played.</text>
+  <text x="60.0" y="494.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Two Stand-Up breaks completed, none skipped.</text>
+  <text x="60.0" y="516.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">No chat, uploads or outbound links were available at any point.</text>
+  <text x="40.0" y="572.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#6b665c" text-anchor="start">Visibility, not surveillance.</text>
+  <line x1="40.0" y1="716.0" x2="1160.0" y2="716.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="40.0" y="738.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#6b665c" text-anchor="start">Guardian-facing audit trail pairing review status with a plain summary of what the child experienced.</text>
+</svg>

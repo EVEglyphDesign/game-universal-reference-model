@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect x="0" y="0" width="1200" height="760" fill="#fdfaf4"/>
+  <text x="40.0" y="30.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#6b665c" text-anchor="start" letter-spacing="0.5">W6</text>
+  <text x="40.0" y="60.0" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="600" fill="#1a1a1a" text-anchor="start">Twin Quest — Connect Tools</text>
+  <rect x="996.3" y="22.0" width="163.7" height="25.0" rx="12.5" fill="none" stroke="#e87722" stroke-width="1.5"/>
+  <text x="1078.1" y="38.7" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#e87722" text-anchor="middle">URM 5.1, 5.5, 12.2</text>
+  <line x1="40.0" y1="74.0" x2="1160.0" y2="74.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <rect x="40.0" y="110.0" width="265.0" height="64.0" rx="4" fill="none" stroke="#e7e1d3" stroke-width="1.5"/>
+  <rect x="54.0" y="130.0" width="24.0" height="24.0" rx="12.0" fill="none" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="66.0" y="147.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#6b665c" text-anchor="middle">1</text>
+  <text x="88.0" y="147.0" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#1a1a1a" text-anchor="start">Request</text>
+  <line x1="309.0" y1="142.0" x2="321.0" y2="142.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <rect x="325.0" y="110.0" width="265.0" height="64.0" rx="4" fill="none" stroke="#e7e1d3" stroke-width="1.5"/>
+  <rect x="339.0" y="130.0" width="24.0" height="24.0" rx="12.0" fill="none" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="351.0" y="147.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#6b665c" text-anchor="middle">2</text>
+  <text x="373.0" y="147.0" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#1a1a1a" text-anchor="start">Authenticate</text>
+  <line x1="594.0" y1="142.0" x2="606.0" y2="142.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <rect x="610.0" y="110.0" width="265.0" height="64.0" rx="4" fill="none" stroke="#e7e1d3" stroke-width="1.5"/>
+  <rect x="624.0" y="130.0" width="24.0" height="24.0" rx="12.0" fill="none" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="636.0" y="147.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#6b665c" text-anchor="middle">3</text>
+  <text x="658.0" y="147.0" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#1a1a1a" text-anchor="start">Fork twin</text>
+  <line x1="879.0" y1="142.0" x2="891.0" y2="142.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <rect x="895.0" y="110.0" width="265.0" height="64.0" rx="4" fill="none" stroke="#e87722" stroke-width="1.5"/>
+  <rect x="909.0" y="130.0" width="24.0" height="24.0" rx="12.0" fill="#e87722" stroke="#e87722" stroke-width="1.5"/>
+  <text x="921.0" y="147.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#fdfaf4" text-anchor="middle">4</text>
+  <text x="943.0" y="147.0" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#e87722" text-anchor="start">Connect tools</text>
+  <rect x="40.0" y="200.0" width="360.0" height="118.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="58.0" y="239.0" width="40.0" height="40.0" rx="4" fill="#fdfaf4" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="58.0" y1="239.0" x2="98.0" y2="279.0" stroke="#e7e1d3" stroke-width="1"/>
+  <line x1="98.0" y1="239.0" x2="58.0" y2="279.0" stroke="#e7e1d3" stroke-width="1"/>
+  <text x="114.0" y="253.0" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#1a1a1a" text-anchor="start">WhatsApp</text>
+  <rect x="114.0" y="267.0" width="100.0" height="30.0" rx="4" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="164.0" y="287.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="middle">Connect</text>
+  <rect x="420.0" y="200.0" width="360.0" height="118.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="438.0" y="239.0" width="40.0" height="40.0" rx="4" fill="#fdfaf4" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="438.0" y1="239.0" x2="478.0" y2="279.0" stroke="#e7e1d3" stroke-width="1"/>
+  <line x1="478.0" y1="239.0" x2="438.0" y2="279.0" stroke="#e7e1d3" stroke-width="1"/>
+  <text x="494.0" y="253.0" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#1a1a1a" text-anchor="start">iPhone</text>
+  <rect x="494.0" y="267.0" width="100.0" height="30.0" rx="4" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="544.0" y="287.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="middle">Connect</text>
+  <rect x="800.0" y="200.0" width="360.0" height="118.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="818.0" y="239.0" width="40.0" height="40.0" rx="4" fill="#fdfaf4" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="818.0" y1="239.0" x2="858.0" y2="279.0" stroke="#e7e1d3" stroke-width="1"/>
+  <line x1="858.0" y1="239.0" x2="818.0" y2="279.0" stroke="#e7e1d3" stroke-width="1"/>
+  <text x="874.0" y="253.0" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#1a1a1a" text-anchor="start">Android</text>
+  <rect x="874.0" y="267.0" width="100.0" height="30.0" rx="4" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="924.0" y="287.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="middle">Connect</text>
+  <rect x="40.0" y="338.0" width="360.0" height="118.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="58.0" y="377.0" width="40.0" height="40.0" rx="4" fill="#fdfaf4" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="58.0" y1="377.0" x2="98.0" y2="417.0" stroke="#e7e1d3" stroke-width="1"/>
+  <line x1="98.0" y1="377.0" x2="58.0" y2="417.0" stroke="#e7e1d3" stroke-width="1"/>
+  <text x="114.0" y="391.0" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#1a1a1a" text-anchor="start">AI Glasses</text>
+  <rect x="114.0" y="405.0" width="100.0" height="30.0" rx="4" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="164.0" y="425.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="middle">Connect</text>
+  <rect x="420.0" y="338.0" width="360.0" height="118.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="438.0" y="377.0" width="40.0" height="40.0" rx="4" fill="#fdfaf4" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="438.0" y1="377.0" x2="478.0" y2="417.0" stroke="#e7e1d3" stroke-width="1"/>
+  <line x1="478.0" y1="377.0" x2="438.0" y2="417.0" stroke="#e7e1d3" stroke-width="1"/>
+  <text x="494.0" y="391.0" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#1a1a1a" text-anchor="start">Calendar</text>
+  <rect x="494.0" y="405.0" width="100.0" height="30.0" rx="4" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="544.0" y="425.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="middle">Connect</text>
+  <rect x="800.0" y="338.0" width="360.0" height="118.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="818.0" y="377.0" width="40.0" height="40.0" rx="4" fill="#fdfaf4" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="818.0" y1="377.0" x2="858.0" y2="417.0" stroke="#e7e1d3" stroke-width="1"/>
+  <line x1="858.0" y1="377.0" x2="818.0" y2="417.0" stroke="#e7e1d3" stroke-width="1"/>
+  <text x="874.0" y="391.0" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#1a1a1a" text-anchor="start">Files</text>
+  <rect x="874.0" y="405.0" width="100.0" height="30.0" rx="4" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="924.0" y="425.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="middle">Connect</text>
+  <text x="600.0" y="486.0" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#6b665c" text-anchor="middle">Your twin's data stays yours. Export it any time.</text>
+  <line x1="40.0" y1="716.0" x2="1160.0" y2="716.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="40.0" y="738.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#6b665c" text-anchor="start">Guided flow for linking real-world tools to a sandboxed twin, ending on an explicit ownership promise.</text>
+</svg>

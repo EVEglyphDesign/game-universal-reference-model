@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect x="0" y="0" width="1200" height="760" fill="#fdfaf4"/>
+  <text x="40.0" y="30.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#6b665c" text-anchor="start" letter-spacing="0.5">W2</text>
+  <text x="40.0" y="60.0" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="600" fill="#1a1a1a" text-anchor="start">Safety Notice and Consent Gate</text>
+  <rect x="1003.8" y="22.0" width="156.2" height="25.0" rx="12.5" fill="none" stroke="#e87722" stroke-width="1.5"/>
+  <text x="1081.9" y="38.7" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#e87722" text-anchor="middle">URM 2.1, 2.4, 2.6</text>
+  <line x1="40.0" y1="74.0" x2="1160.0" y2="74.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <rect x="40.0" y="100.0" width="1120.0" height="420.0" rx="4" fill="#f7f2e7" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="64.0" y="134.0" font-family="Inter, system-ui, sans-serif" font-size="17" font-weight="600" fill="#1a1a1a" text-anchor="start">This game does not have:</text>
+  <rect x="64.0" y="195.8" width="16.0" height="16.0" rx="3" fill="#fdfaf4" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="92.0" y="208.8" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#1a1a1a" text-anchor="start">No chat</text>
+  <rect x="64.0" y="279.2" width="16.0" height="16.0" rx="3" fill="#fdfaf4" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="92.0" y="292.2" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#1a1a1a" text-anchor="start">No voice channels</text>
+  <rect x="64.0" y="362.8" width="16.0" height="16.0" rx="3" fill="#fdfaf4" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="92.0" y="375.8" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#1a1a1a" text-anchor="start">No friend requests</text>
+  <rect x="64.0" y="446.2" width="16.0" height="16.0" rx="3" fill="#fdfaf4" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="92.0" y="459.2" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#1a1a1a" text-anchor="start">No camera</text>
+  <rect x="600.0" y="195.8" width="16.0" height="16.0" rx="3" fill="#fdfaf4" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="628.0" y="208.8" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#1a1a1a" text-anchor="start">No microphone</text>
+  <rect x="600.0" y="279.2" width="16.0" height="16.0" rx="3" fill="#fdfaf4" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="628.0" y="292.2" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#1a1a1a" text-anchor="start">No uploads</text>
+  <rect x="600.0" y="362.8" width="16.0" height="16.0" rx="3" fill="#fdfaf4" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="628.0" y="375.8" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#1a1a1a" text-anchor="start">No ads or trackers</text>
+  <rect x="600.0" y="446.2" width="16.0" height="16.0" rx="3" fill="#fdfaf4" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="628.0" y="459.2" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#1a1a1a" text-anchor="start">No outbound links</text>
+  <rect x="40.0" y="542.0" width="1120.0" height="46.0" rx="4" fill="none" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="60.0" y="570.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#6b665c" text-anchor="start">Fictional imagery — all characters, places and events in this game are invented.</text>
+  <rect x="40.0" y="614.0" width="320.0" height="50.0" rx="4" fill="#e87722" stroke="#e87722" stroke-width="1.5"/>
+  <text x="200.0" y="644.0" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="400" fill="#fdfaf4" text-anchor="middle">I understand — continue</text>
+  <rect x="380.0" y="614.0" width="300.0" height="50.0" rx="4" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="530.0" y="644.0" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="400" fill="#1a1a1a" text-anchor="middle">Skip the guided tour</text>
+  <line x1="40.0" y1="716.0" x2="1160.0" y2="716.0" stroke="#e7e1d3" stroke-width="1.5"/>
+  <text x="40.0" y="738.0" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" fill="#6b665c" text-anchor="start">Consent gate stating plainly what is absent before any play begins, with an explicit continue action.</text>
+</svg>
