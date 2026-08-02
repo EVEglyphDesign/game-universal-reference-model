@@ -1,0 +1,47 @@
+{
+  "verification_path": "playwright",
+  "curl_status": 200,
+  "importmap_url_status": {
+    "https://unpkg.com/three@0.160.0/build/three.module.js": 200,
+    "https://unpkg.com/three@0.160.0/examples/jsm/loaders/GLTFLoader.js": 200
+  },
+  "page_errors": [],
+  "console_warnings_only": [
+    "GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels -- benign SwiftShader software-rendering perf warning, not a functional error"
+  ],
+  "loading_hidden": true,
+  "error_panel_visible": false,
+  "fps_headless_swiftshader": "7-9 (software rendering; not representative of real GPU perf)",
+  "triangle_count_hud": 3540,
+  "canvas_size": [1280, 800],
+  "screenshots": [
+    "_verify_screenshot.png - baseline load, canonical HUD + geometry render",
+    "_verify_locked.png - after pointer lock engaged, no camera jump",
+    "_verify_after_move.png - after WASD forward movement",
+    "_verify_collision_test.png - after extended forward walk",
+    "_verify_crate_collision.png - player physically blocked by CrateA/B AABB, sliding along its face",
+    "_verify_after_jump.png - player airborne after Space, gravity/jump confirmed",
+    "_verify_touch_ui.png - iPhone 13 viewport, touch controls + stacked responsive HUD, no overlap",
+    "_verify_desktop_final.png - 1280x800 desktop layout, unaffected by responsive changes",
+    "_verify_error_panel.png - simulated missing glb, human-readable error panel shown"
+  ],
+  "numeric_collision_checks": {
+    "free_forward_walk_speed_ms": 5.5,
+    "matches_SPEED_constant": true,
+    "player_stopped_at_crateA_z_boundary": -3.71,
+    "expected_boundary_approx": -3.8,
+    "slid_along_crate_face_while_x_continued": true,
+    "gravity_triggered_falling_off_floor_edge_at_z24": true,
+    "collider_count_after_fix": 6,
+    "collider_count_before_fix_bug": 7,
+    "bug_found_and_fixed": "Player's own Collision7 node was being added as a static world collider, and CrateA/B/C + PillarA/B AABBs were computed before root.updateMatrixWorld(true), yielding un-transformed local-space bounds. Both fixed."
+  },
+  "bugs_found_and_fixed_during_verification": [
+    "Pointer-lock engage produced a synthetic huge movementX/Y (camera flip under floor) in Chromium/CDP-driven input; fixed by discarding the first mousemove event after each lock acquisition.",
+    "Player's own Collision7 rig node was incorrectly registered as a static world collider (self-collision bug); fixed by excluding any Collision* node that is a descendant of the Player node.",
+    "World collider AABBs for crates/pillars were computed before the loaded scene graph's matrixWorld was updated, yielding untransformed local-space boxes; fixed by calling root.updateMatrixWorld(true) immediately after adding the loaded scene to the graph.",
+    "Dead/incorrect code in the animate() loop (double camera-position assignment, stray unused variables, a tick() function defined after its own invocation) cleaned up.",
+    "Narrow-viewport (mobile/touch) HUD panels overlapped each other and the on-screen touch controls; fixed with a responsive stacked layout and a JS class toggle that relocates the legend panel when touch mode is active."
+  ],
+  "known_remaining_minor_issue": "On very narrow viewports (~390px, e.g. iPhone 13 portrait) the title panel's subtitle text ('three.js r160') is very slightly clipped by its max-width, though it does not overlap any other element and the panel itself is fully legible. Not fixed further to avoid over-engineering the CSS for an edge case beyond the stated visual canon requirements."
+}

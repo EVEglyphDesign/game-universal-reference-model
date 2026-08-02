@@ -1,3 +1,4 @@
 reference/samples/
 __pycache__/
 *.pyc
+verification/*.png

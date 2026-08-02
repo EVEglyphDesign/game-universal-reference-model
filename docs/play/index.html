@@ -278,6 +278,70 @@
     background: var(--accent);
     color: var(--cream);
   }
+
+  /* ---------- Responsive: narrow / small viewports ---------- */
+  /* Stack the top HUD panels vertically instead of side-by-side so nothing overlaps. */
+  @media (max-width: 560px){
+    .panel{
+      padding: 6px 10px;
+      max-width: 78vw;
+    }
+    #title-panel{
+      top: 10px; left: 10px; right: auto;
+      max-width: 62vw;
+    }
+    #title-panel h1{
+      font-size: 12px;
+    }
+    #title-panel .sub{
+      font-size: 8px;
+      white-space: normal;
+    }
+    #stats-panel{
+      top: 10px; right: 10px; left: auto;
+      max-width: 30vw;
+    }
+    #stats-panel .stat-row{
+      font-size: 9px;
+    }
+    #legend-panel{
+      bottom: auto;
+      top: 62px;
+      left: 10px;
+      right: 10px;
+      transform: none;
+      max-width: none;
+      text-align: left;
+    }
+    #legend-panel .panel{
+      max-width: none;
+    }
+    #legend-panel .legend-row{
+      font-size: 9px;
+      line-height: 1.5;
+    }
+    #legend-panel .key{
+      font-size: 9px;
+      padding: 0px 4px;
+      margin: 0 1px;
+    }
+    #lock-hint{
+      display: none; /* redundant with the legend row on small screens; avoids a third overlapping banner */
+    }
+  }
+
+  /* When touch controls are active, keep the legend directly under the title/stats row,
+     out of the way of the on-screen stick / look-drag / jump zones at the bottom. */
+  #legend-panel.touch-mode{
+    bottom: auto;
+    top: 62px;
+  }
+  @media (min-width: 561px){
+    #legend-panel.touch-mode{
+      top: auto;
+      bottom: 16px;
+    }
+  }
 </style>
 </head>
 <body>
@@ -507,6 +571,7 @@ let touchSprintOn = false;
 
 if (isTouchDevice) {
   touchControls.classList.add('active');
+  document.getElementById('legend-panel').classList.add('touch-mode');
   lockHint.textContent = 'Use the on-screen controls to play';
 
   const stickZone = document.getElementById('stick-zone');
@@ -665,6 +730,7 @@ function hideRecursive(node) {
 function onModelLoaded(gltf) {
   const root = gltf.scene;
   scene.add(root);
+  root.updateMatrixWorld(true);
 
   // Count triangles across all meshes for HUD (before hiding collision geo, since
   // collision nodes have no mesh anyway — this is the full visual triangle budget)
@@ -686,15 +752,35 @@ function onModelLoaded(gltf) {
   });
 
   // Walk the hierarchy: hide Collision* and WorldEnvironment, build AABBs from Collision* + Floor.
+  // The Player's own Collision node (its physics capsule) must NOT become a static
+  // world collider, or the player would immediately collide with itself.
+  const playerNodeForExclusion = root.getObjectByName('Player');
+  function isDescendantOf(node, ancestor) {
+    if (!ancestor) return false;
+    let cur = node;
+    while (cur) {
+      if (cur === ancestor) return true;
+      cur = cur.parent;
+    }
+    return false;
+  }
+
   root.traverse((obj) => {
     const name = obj.name || '';
     if (name === 'WorldEnvironment') {
       hideRecursive(obj);
     }
     if (name === 'Collision' || name.startsWith('Collision')) {
+      // Always hide collision proxies from rendering, including the player's own.
+      hideRecursive(obj);
+
+      if (isDescendantOf(obj, playerNodeForExclusion)) {
+        // This is the player's own physics capsule, not a static obstacle — skip it.
+        return;
+      }
+
       // Use the sibling Mesh's world-space bounding box as the physical AABB,
       // since the collision node itself carries no mesh in this export.
-      hideRecursive(obj);
       const parent = obj.parent;
       let meshSibling = null;
       if (parent) {
@@ -713,11 +799,15 @@ function onModelLoaded(gltf) {
     }
   });
 
-  // Explicitly ensure the Floor contributes a collider even if named differently.
+  // Note: the Floor's own "Collision" child node is handled by the traversal
+  // above (it is named "Collision" and is a sibling of "Mesh" under Floor), so
+  // it already contributes a world collider there. No separate Floor lookup
+  // is needed and avoids a redundant duplicate AABB.
   const floorNode = root.getObjectByName('Floor');
-  if (floorNode) {
+  if (floorNode && worldColliders.length === 0) {
+    // Defensive fallback only: if for some reason no Collision child was found
+    // anywhere in the scene, still make sure the floor is solid.
     const box = new THREE.Box3().setFromObject(floorNode);
-    // Avoid duplicate near-identical entry; just add — harmless if overlapping.
     worldColliders.push(new AABB(box.min, box.max));
   }
 
