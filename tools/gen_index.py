@@ -4,6 +4,13 @@ import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from model import DOMAINS  # noqa
 
+TOGAF = {"B": "Business", "D": "Data", "A": "Application", "T": "Technology", "": ""}
+
+
+def layer(tg, std):
+    v = TOGAF.get(tg, tg)
+    return f"{v} &middot; {std}" if std else v
+
 ROOT = "/home/user/workspace/urm"
 D = json.load(open(f"{ROOT}/model/EgD-URM-001.json"))
 REF = json.load(open(f"{ROOT}/reference/MANIFEST.json"))
@@ -16,7 +23,7 @@ dom_html = []
 for num, title, blurb, items in DOMAINS:
     rows = "".join(
         f'<tr><td class="id">{n}</td><td class="cap">{t}</td><td>{s}</td>'
-        f'<td class="mu">{tg}</td><td><span class="st st-{st.lower()}">{st}</span></td></tr>'
+        f'<td class="mu">{layer(tg, std)}</td><td><span class="st st-{st.lower()}">{st}</span></td></tr>'
         for n, t, s, tg, std, src, st in items)
     dom_html.append(
         f'<section class="dom" id="s{num}"><h3><span class="n">{num}</span>{title}</h3>'

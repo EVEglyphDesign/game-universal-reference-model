@@ -468,6 +468,7 @@ const lockHint = document.getElementById('lock-hint');
 let yaw = 0;      // camera yaw (radians)
 let pitch = -0.25; // camera pitch (radians), clamped
 
+let wasLocked = false;
 function onPointerLockChange() {
   const locked = document.pointerLockElement === renderer.domElement;
   modeLabel.textContent = locked ? 'Playing — Esc to release' : 'Click to play';
@@ -482,7 +483,16 @@ renderer.domElement.addEventListener('click', () => {
 });
 
 window.addEventListener('mousemove', (e) => {
-  if (document.pointerLockElement !== renderer.domElement) return;
+  const locked = document.pointerLockElement === renderer.domElement;
+  if (!locked) { wasLocked = false; return; }
+  if (!wasLocked) {
+    // This is the first mousemove seen since lock engaged. Some browsers and
+    // automated input pipelines report a single large synthetic movementX/Y
+    // here, as the OS cursor is warped to the hidden lock origin. Swallow it
+    // so the camera never jumps the instant play mode begins.
+    wasLocked = true;
+    return;
+  }
   const sensitivity = 0.0022;
   yaw -= e.movementX * sensitivity;
   pitch -= e.movementY * sensitivity;
