@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Chapter Three — Four Lost Days · EVEglyphDesign</title>
+<title>Rendering Demonstration — Runtime Capabilities · EVEglyphDesign</title>
 <meta name="description" content="The Field of Twelve Gates. A glTF 2.0 scene authored in Godot and delivered in the browser on WebGL 2.0.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,7 +52,7 @@ canvas{display:block;position:fixed;inset:0}
 kbd{font:600 10.5px Inter;background:var(--cream2);border:1px solid var(--line);
   border-bottom-width:2px;border-radius:3px;padding:1px 5px;color:var(--ink);margin-right:3px}
 
-/* centre caption — Uriel speaks */
+/* centre caption — runtime notes */
 .cap{left:50%;bottom:96px;transform:translateX(-50%) translateY(8px);
   padding:14px 20px;max-width:min(78vw,620px);text-align:center;opacity:0;
   transition:opacity .5s ease,transform .5s ease}
@@ -129,9 +129,9 @@ kbd{font:600 10.5px Inter;background:var(--cream2);border:1px solid var(--line);
 
 <div class="hud">
   <div class="panel tl">
-    <div class="eyebrow">Chapter Three</div>
-    <h1>Four Lost Days</h1>
-    <div class="sub">The Field of Twelve Gates · authored in Godot 4.7, delivered as glTF 2.0 on WebGL 2.0</div>
+    <div class="eyebrow">Rendering demonstration &middot; not the game</div>
+    <h1>Runtime Capabilities</h1>
+    <div class="sub">A reference implementation of URM domains 5 and 6 &mdash; authored in Godot 4.7, delivered as glTF 2.0 on WebGL 2.0. No lesson, no gate, no chapter content.</div>
   </div>
 
   <div class="panel tr">
@@ -141,9 +141,10 @@ kbd{font:600 10.5px Inter;background:var(--cream2);border:1px solid var(--line);
   </div>
 
   <div class="panel fic">
-    <b>Fiction</b>
-    <span>Uriel and this field are an imaginative retelling drawn from the Astronomical
-    Book, 1&nbsp;Enoch 72&ndash;82. Not a historical record.</span>
+    <b>Demonstration</b>
+    <span>Geometry, lighting, locomotion and the Stand-Up interrupt, shown running in a
+    browser. The shapes are placeholders. Nothing here teaches anything and nothing here
+    is chapter content.</span>
   </div>
 
   <div class="panel ctl">
@@ -152,18 +153,19 @@ kbd{font:600 10.5px Inter;background:var(--cream2);border:1px solid var(--line);
   </div>
 
   <div class="panel cap" id="cap">
-    <div class="who" id="capWho">Uriel</div>
+    <div class="who" id="capWho">Runtime note</div>
     <p id="capText"></p>
   </div>
 </div>
 
 <div class="start" id="start">
   <div class="card">
-    <h2>The Field of Twelve Gates</h2>
-    <p>Walk the circle and find Uriel on the measuring dais. Twelve gates for twelve
-       months, three hundred and sixty&#8209;four days marked in the stone &mdash; and four
-       days that belong to none of them.</p>
-    <div class="go">Enter the field</div>
+    <h2>Rendering demonstration</h2>
+    <p>This is <b>not the game</b>. It is a reference implementation of the runtime
+       capabilities in the reference model: procedural geometry, an over&#8209;the&#8209;shoulder
+       camera, fixed&#8209;step locomotion, and the mandatory Stand&#8209;Up interrupt. The
+       educational chapters live elsewhere and are specified on paper first.</p>
+    <div class="go">Enter the demonstration</div>
   </div>
 </div>
 
@@ -300,7 +302,7 @@ const bounce = new THREE.DirectionalLight(0xf6dcb4, 0.40);
 bounce.position.set(0, -12, 0);
 scene.add(bounce);
 
-/* Uriel is lit as a presence, not just by the sun. */
+/* The placeholder figure carries its own fill so it reads at distance. */
 const aura = new THREE.PointLight(0xffd9a0, 26, 26, 2.0);
 aura.position.set(0, 5.0, 0);
 scene.add(aura);
@@ -326,7 +328,7 @@ scene.add(aura);
 
 /* ------------------------------------------------------------------ state */
 const colliders = [];
-let avatar = null, uriel = null, ready = false;
+let avatar = null, figure = null, ready = false;
 const pos = new THREE.Vector3();
 const vel = new THREE.Vector3();
 let yaw = 0, pitch = -0.10, faceYaw = 0, grounded = true;
@@ -339,7 +341,7 @@ new GLTFLoader().load('world.glb', (gltf) => {
   /* The avatar template is parked underground in the source scene; lift it out
      before it is measured or cloned. */
   const tmpl = root.getObjectByName('PlayerAvatar');
-  uriel = root.getObjectByName('Uriel');
+  figure = root.getObjectByName('Uriel'); /* GLB node name, retained from the build */
 
   root.traverse(o => {
     if (!o.isMesh) return;
@@ -382,7 +384,7 @@ new GLTFLoader().load('world.glb', (gltf) => {
 
   scene.add(root);
 
-  /* Spawn on the ring, off-axis, looking at Uriel with the live gate behind him. */
+  /* Spawn on the ring, off-axis, looking at the standing figure. */
   pos.set(-10.5, 0, -15.0);
   const dx = -pos.x, dz = -pos.z;
   yaw = Math.atan2(-dx, -dz);
@@ -509,15 +511,15 @@ if (isTouch) {
   renderer.domElement.addEventListener('pointercancel', lend);
 }
 
-/* ------------------------------------------------------- Uriel's caption */
+/* ------------------------------------------- runtime notes, not dialogue */
 const LINES = [
-  'Twelve gates for the sun, and the sun keeps to them. It leaves by one and returns by another, and the year is measured by the leaving.',
-  'Three hundred and sixty-four days are written in the stone. Count them yourself if you like. I will wait.',
-  'The four marks at the joints of the seasons belong to no month. They are the days people forget, and forgetting them is how a calendar goes wrong.',
-  'A year that is counted honestly can be checked by anyone. That is the whole reason to write it down.',
-  'I keep the measure. I do not keep the meaning — that part is yours.'
+  'Locomotion runs on a fixed 1/60 step: speed 5.5, sprint 8.5, jump 5.0, gravity 9.5. Identical constants to the Godot starter.',
+  'The whole scene is procedural. 487 nodes built by script, exported once as glTF 2.0 (ISO/IEC 12113:2022) and streamed as a single binary.',
+  'Camera is over-the-shoulder: arm 7.4, height 1.58, side 1.25. Pitch clamped between -1.05 and 0.55 radians.',
+  'The Stand-Up interrupt fires at twelve minutes of active play and holds for sixty-six seconds. It is not skippable and it is not a gate.',
+  'These figures are placeholder geometry. They are not characters and they carry no meaning.'
 ];
-let lineIx = 0, nearUriel = false, capTimer = 0;
+let lineIx = 0, nearFigure = false, capTimer = 0;
 const capEl = document.getElementById('cap'), capText = document.getElementById('capText');
 function speak(t) {
   capText.textContent = t;
@@ -600,14 +602,14 @@ function step(dt) {
   const r = Math.hypot(pos.x, pos.z);
   if (r > 70) { pos.x *= 70 / r; pos.z *= 70 / r; }
 
-  /* Uriel proximity. */
+  /* Proximity to the standing placeholder figure. */
   const du = Math.hypot(pos.x, pos.z);
-  if (du < 9.5 && !nearUriel) {
-    nearUriel = true;
+  if (du < 9.5 && !nearFigure) {
+    nearFigure = true;
     speak(LINES[lineIx % LINES.length]);
     lineIx++;
-  } else if (du > 13.0 && nearUriel) {
-    nearUriel = false;
+  } else if (du > 13.0 && nearFigure) {
+    nearFigure = false;
   }
   if (capTimer > 0) {
     capTimer -= dt;
@@ -644,13 +646,13 @@ function frame(now) {
     while (acc >= FIXED_DT && guard++ < 6) { step(FIXED_DT); acc -= FIXED_DT; }
     place(dt);
 
-    /* Uriel turns slowly to face the player; the halo drifts. */
-    if (uriel) {
+    /* The placeholder figure turns slowly to face the player. */
+    if (figure) {
       const want = Math.atan2(pos.x, pos.z);
-      let d = want - uriel.rotation.y;
+      let d = want - figure.rotation.y;
       while (d > Math.PI) d -= Math.PI * 2;
       while (d < -Math.PI) d += Math.PI * 2;
-      uriel.rotation.y += d * Math.min(1, 1.6 * dt);
+      figure.rotation.y += d * Math.min(1, 1.6 * dt);
     }
     aura.intensity = 24 + Math.sin(now * 0.0013) * 4;
   }
@@ -669,7 +671,7 @@ addEventListener('resize', () => {
    to park the camera on a figure and judge the sculpt at size. */
 window.__scene = scene; window.__cam = camera; window.__THREE = THREE;
 
-/* The gate readout is fixed for this chapter build. */
+/* The readout is fixed for this demonstration build. */
 document.getElementById('hGate').textContent = 'I of XII';
 </script>
 </body>

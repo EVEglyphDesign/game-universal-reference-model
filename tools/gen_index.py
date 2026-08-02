@@ -129,7 +129,7 @@ footer p{{margin:5px 0}}
 <span class="mu">&middot; Blueprint L0</span>
 <span style="flex:1"></span>
 <a href="{PDF}">PDF</a>
-<a href="play/">Live 3D</a>
+<a href="play/">Rendering demo</a>
 <a href="#wireframes">Wireframes</a>
 <a href="#model">Model</a>
 <a href="#reference">Reference</a>
@@ -150,7 +150,7 @@ enterprise architectures.</p>
 <span><b>Version</b> {D['meta']['version']}</span>
 </div>
 <div class="cta">
-<a class="btn pri" href="play/">Play the 3D proof &rarr;</a>
+<a class="btn pri" href="play/">Open the rendering demo &rarr;</a>
 <a class="btn" href="{PDF}">Read the blueprint (PDF)</a>
 <a class="btn" href="model/EgD-URM-001-crosswalk.csv">Crosswalk sheet (CSV)</a>
 </div>
