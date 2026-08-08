@@ -10,6 +10,15 @@ enterprise architectures.
 
 **Status:** blueprint v1.0 — for review and approval. 15 domains, 88 capabilities.
 
+## Assessments
+
+- [`EgD-URM-002` — GenAI Library Fit Assessment](docs/blueprint/EVEglyphDesign_GenAI_Library_Fit_Assessment.pdf)
+  — ten generative-AI Python libraries tested against four admission gates derived from this
+  model's own capability numbers. Two accepted with boundaries, one refused as a canon breach,
+  seven declined. Includes five hygiene findings against this repository, two of them live
+  defects on the child-facing surface.
+  Source: [`model/EgD-URM-002-library-assessment.md`](model/EgD-URM-002-library-assessment.md)
+
 ## Numbering
 
 | Level | Form | Meaning |

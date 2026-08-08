@@ -18,6 +18,7 @@ WF_FILES = {"W1": "w1-entry", "W2": "w2-safety", "W3": "w3-chapters", "W4": "w4-
             "W5": "w5-standup", "W6": "w6-twinquest", "W7": "w7-village",
             "W8": "w8-guardian"}
 PDF = "blueprint/EVEglyphDesign_Game_Universal_Reference_Model.pdf"
+ASSESS = "blueprint/EVEglyphDesign_GenAI_Library_Fit_Assessment.pdf"
 
 dom_html = []
 for num, title, blurb, items in DOMAINS:
@@ -152,6 +153,7 @@ enterprise architectures.</p>
 <div class="cta">
 <a class="btn pri" href="play/">Open the rendering demo &rarr;</a>
 <a class="btn" href="{PDF}">Read the blueprint (PDF)</a>
+<a class="btn" href="{ASSESS}">GenAI library fit assessment \u2014 EgD-URM-002 (PDF)</a>
 <a class="btn" href="model/EgD-URM-001-crosswalk.csv">Crosswalk sheet (CSV)</a>
 </div>
 </div></div>
